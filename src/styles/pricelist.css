@@ -1,0 +1,22 @@
+.section-price-list {
+  min-height: 100vh;
+  padding: 1em 12em 5em 12em;
+}
+
+.section-price-list .header-price-list {
+  font-family: "Baskervville", serif;
+  font-size: 2.5rem;
+}
+
+.section-price-list .price-list-content {
+  width: 100%;
+  font-family: "Raleway", sans-serif;
+}
+
+.price-list-content .desc-product {
+  width: 80%;
+}
+
+.price-list-content .desc-product p {
+  font-size: 1.3rem;
+}

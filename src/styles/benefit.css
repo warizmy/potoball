@@ -1,0 +1,12 @@
+.section-benefit {
+  min-height: 100vh;
+  padding: 1em 4em;
+}
+
+.section-benefit .header-benefit {
+  font-family: "Baskervville", serif;
+}
+
+.header-benefit h1{
+    font-size: 3.5rem;
+}

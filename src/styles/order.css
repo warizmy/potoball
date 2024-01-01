@@ -1,0 +1,36 @@
+.section-order {
+  min-height: 100vh;
+  background-color: #f8f2dc;
+  margin: 2em 0em;
+}
+
+.section-order .header-order {
+  font-family: "Baskervville", serif;
+  font-size: 2.5rem;
+}
+
+.section-order .order-content {
+  width: 85%;
+  font-family: "Raleway", sans-serif;
+}
+
+.order-content .box {
+  background-color: #fff;
+  padding: 2em;
+  border: 2px solid #d9ceb0;
+  width: 287px;
+  height: 434px;
+}
+
+.box .cirlce {
+  background-color: #796c4a;
+  border-radius: 50%;
+  padding: 0.6em 0.9em;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+}
+
+.box p {
+  font-size: 1.3rem;
+}
