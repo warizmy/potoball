@@ -180,6 +180,9 @@ body {
     flex-direction: row;
     justify-content: center;
   }
+  .inner-footer-content .footer-menu-content a{
+    font-size: 1.5rem;
+  }
   .inner-footer-content .footer-contact-us h3 {
     text-align: center;
   }
