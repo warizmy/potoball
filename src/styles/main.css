@@ -50,11 +50,16 @@ body {
     font-size: 65%;
   }
   .navbar {
-    padding: 0em 1em;
+    padding: 0em 1em 1em 1em;
+  }
+
+  .navbar .navbar-brand img {
+    width: 70px;
+    height: 70px;
   }
 
   .navbar .navbar-toggler {
-    font-size: 2.4rem;
+    font-size: 2.1rem;
   }
 
   .nav-item span {
