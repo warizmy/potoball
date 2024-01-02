@@ -42,3 +42,143 @@ body {
   font-size: 1.2rem;
   font-weight: 600;
 }
+
+/* ----------------------- RESPONSIVE --------------------- */
+/* Mobile */
+@media (max-width: 480px) {
+  html {
+    font-size: 65%;
+  }
+  .navbar {
+    padding: 0em 1em;
+  }
+
+  .navbar .navbar-toggler {
+    font-size: 2.4rem;
+  }
+
+  .nav-item span {
+    display: none;
+  }
+
+  .nav-item svg {
+    width: 40px;
+    height: 40px;
+  }
+
+  .section-aboutus .aboutus-content {
+    text-align: center;
+  }
+
+  .header-carousel {
+    font-size: 1.6rem;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 50px;
+    height: 50px;
+  }
+  .header-location img {
+    width: 50px;
+    height: 50px;
+  }
+  .date-location-desc {
+    line-height: 1.5;
+    text-align: center;
+  }
+  .section-order .order-content {
+    flex-wrap: wrap;
+  }
+  .header-order img {
+    width: 50px;
+    height: 50px;
+  }
+  .order-content .box {
+    width: 190px;
+    height: 300px;
+    justify-content: center;
+  }
+  .section-price-list {
+    padding: 5em 4em 10em 4em;
+  }
+  .section-price-list .header-price-list img {
+    width: 50px;
+    height: 50px;
+  }
+  .section-price-list .price-list-content {
+    flex-wrap: wrap-reverse;
+  }
+  .price-list-content .desc-product {
+    width: 100%;
+  }
+  .price-list-content img {
+    padding: 5em 0em;
+  }
+  .section-benefit {
+    flex-wrap: wrap;
+  }
+  .section-benefit .header-benefit {
+    justify-content: center;
+    padding-right: 0em;
+    gap: 0em;
+  }
+  .header-benefit h1 {
+    font-size: 3rem;
+  }
+  .section-benefit .header-benefit img {
+    width: 50px;
+    height: 50px;
+  }
+  .benefit-content .benefit-desc {
+    text-align: center;
+    line-height: 1.5;
+  }
+  .section-gallery .header-gallery img {
+    width: 50px;
+    height: 50px;
+  }
+  .footer-content {
+    flex-wrap: wrap;
+    padding: 4em;
+  }
+  .footer-content .brand-name {
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 4em;
+  }
+  .footer-content .brand-name h3 {
+    text-align: center;
+  }
+  .footer-content .inner-footer-content {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .inner-footer-content .footer-menu {
+    padding-bottom: 3em;
+  }
+
+  .inner-footer-content .footer-menu h3 {
+    text-align: center;
+  }
+  .inner-footer-content .footer-menu-content {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .inner-footer-content .footer-contact-us h3 {
+    text-align: center;
+  }
+  .footer-contact-us img {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 380px) {
+  .section-aboutus .aboutus-content {
+    padding: 5em 2em;
+  }
+  .header-carousel {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}

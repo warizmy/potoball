@@ -2,6 +2,7 @@
   min-height: 100vh;
   background-color: #f8f2dc;
   margin: 2em 0em;
+  padding: 5em 0em;
 }
 
 .section-order .header-order {
@@ -20,6 +21,7 @@
   border: 2px solid #d9ceb0;
   width: 287px;
   height: 434px;
+  justify-content: start;
 }
 
 .box .cirlce {

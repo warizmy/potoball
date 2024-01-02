@@ -7,6 +7,7 @@
 .section-benefit .header-benefit {
   font-family: "Baskervville", serif;
   padding-right: 3em;
+  gap: 2em;
 }
 
 .header-benefit h1 {

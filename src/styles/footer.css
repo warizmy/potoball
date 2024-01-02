@@ -11,6 +11,7 @@ footer {
 
 .footer-content .brand-name {
   font-family: "Baskervville", serif;
+  align-items: start;
 }
 
 .brand-name h1 {
@@ -27,6 +28,7 @@ footer {
 
 .footer-menu .footer-menu-content {
   flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .footer-menu .footer-menu-content a {
