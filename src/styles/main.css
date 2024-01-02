@@ -10,6 +10,8 @@
 @import "order.css";
 @import "pricelist.css";
 @import "benefit.css";
+@import "gallery.css";
+@import "footer.css";
 
 html {
   scroll-behavior: smooth;

@@ -1,0 +1,13 @@
+.section-gallery {
+  min-height: 100vh;
+  padding: 7em 7em 5em 7em;
+}
+
+.section-gallery .header-gallery {
+  font-family: "Baskervville", serif;
+  padding: 1em 1em 4em 1em;
+}
+
+.img-gallery-container{
+    flex-wrap: wrap;
+}

@@ -1,12 +1,27 @@
 .section-benefit {
-  min-height: 100vh;
-  padding: 1em 4em;
+  padding: 5em 4em;
+  margin-bottom: 5em;
+  background-color: #f8f2dc;
 }
 
 .section-benefit .header-benefit {
   font-family: "Baskervville", serif;
+  padding-right: 3em;
 }
 
-.header-benefit h1{
-    font-size: 3.5rem;
+.header-benefit h1 {
+  font-size: 4rem;
+}
+
+.benefit-content {
+  flex-wrap: wrap;
+  font-family: "Raleway", sans-serif;
+  width: 70%;
+}
+
+.benefit-content .benefit-desc {
+  background-color: #796c4a;
+  padding: 1em 1.5em;
+  border-radius: 50px;
+  color: #fff;
 }

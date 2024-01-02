@@ -1,0 +1,40 @@
+footer {
+  background-color: #191c25;
+  min-height: 40vh;
+  color: #fff;
+  width: 100%;
+}
+
+.footer-content {
+  padding: 5em;
+}
+
+.footer-content .brand-name {
+  font-family: "Baskervville", serif;
+}
+
+.brand-name h1 {
+  font-size: 4rem;
+}
+
+.brand-name h3 {
+  font-style: italic;
+}
+
+.footer-content .footer-menu {
+  font-family: "Raleway", sans-serif;
+}
+
+.footer-menu .footer-menu-content {
+  flex-wrap: wrap;
+}
+
+.footer-menu .footer-menu-content a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 300;
+}
+
+.footer-menu-content a:hover {
+  text-decoration: underline;
+}
