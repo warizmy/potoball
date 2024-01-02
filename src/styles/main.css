@@ -49,13 +49,24 @@ body {
   html {
     font-size: 65%;
   }
+  .promo-content h1 {
+    font-size: 1.4rem;
+  }
   .navbar {
-    padding: 0em 1em 1em 1em;
+    padding: 0em 1em;
   }
 
   .navbar .navbar-brand img {
     width: 70px;
     height: 70px;
+  }
+
+  .navbar .navbar-collapse {
+    padding: 1.4em 0em;
+  }
+
+  .navbar .nav-item .nav-link {
+    font-size: 1.7rem;
   }
 
   .navbar .navbar-toggler {
