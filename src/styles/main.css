@@ -106,9 +106,9 @@ body {
     display: none;
   }
 
-  .nav-item svg {
-    width: 40px;
-    height: 40px;
+  .navbar .nav-item svg {
+    width: 45px;
+    height: 45px;
   }
 
   .section-aboutus .aboutus-content {
@@ -221,7 +221,7 @@ body {
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 390px) {
   .section-aboutus .aboutus-content {
     padding: 5em 2em;
   }
@@ -231,6 +231,9 @@ body {
   .header-carousel {
     font-size: 1.5rem;
     text-align: center;
+  }
+  .date-location .date-location-desc {
+    font-size: 1.4rem;
   }
 }
 
