@@ -1,9 +1,9 @@
-<h2 align="center">Poto Ball - Photography Website</h2>
+<div align="center">
+  <h2 align="center">Poto Ball - Photography Website</h2>
 
   Poto Ball is a fully responsive Photography website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
 
   <a href="https://pottoball.netlify.app/"><strong>➥ Live Demo</strong></a>
-
 </div>
 
 <br />
