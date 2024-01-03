@@ -43,6 +43,32 @@ body {
   font-weight: 600;
 }
 
+.on-top-btn {
+  position: fixed;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background-color: #796c4a;
+  border: 1px solid #796c4a;
+  bottom: 0;
+  right: 0;
+  z-index: 100;
+  margin: 0em 0.7em 1em 0em;
+  color: #fff;
+  font-size: 2.3rem;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  pointer-events: none;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.on-top-btn.scrolled {
+  display: block;
+  opacity: 1;
+  pointer-events: auto;
+}
+
 /* ----------------------- RESPONSIVE --------------------- */
 /* Mobile */
 @media (max-width: 480px) {
@@ -180,7 +206,7 @@ body {
     flex-direction: row;
     justify-content: center;
   }
-  .inner-footer-content .footer-menu-content a{
+  .inner-footer-content .footer-menu-content a {
     font-size: 1.5rem;
   }
   .inner-footer-content .footer-contact-us h3 {
@@ -199,5 +225,65 @@ body {
   .header-carousel {
     font-size: 1.5rem;
     text-align: center;
+  }
+}
+
+/* Laptop */
+@media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
+  .promo-content h1 {
+    font-size: 1.5rem;
+  }
+  .navbar .nav-item .nav-link {
+    font-size: 1.4rem;
+  }
+  .nav-item svg {
+    width: 30px;
+    height: 30px;
+  }
+  .header-location img {
+    width: 60px;
+    height: 60px;
+  }
+  .header-order img {
+    width: 60px;
+    height: 60px;
+  }
+  .order-content .box {
+    width: 260px;
+    height: 370px;
+  }
+  .order-content .box p {
+    font-size: 1.5rem;
+  }
+  .header-price-list img {
+    width: 60px;
+    height: 60px;
+  }
+  .price-list-content .desc-product {
+    width: 100%;
+  }
+  .price-list-content .desc-product p {
+    font-size: 1.5rem;
+  }
+  .header-benefit h1 {
+    font-size: 3rem;
+  }
+  .header-benefit img {
+    width: 70px;
+    height: 70px;
+  }
+  .header-gallery img {
+    width: 60px;
+    height: 60px;
+  }
+  .footer-menu .footer-menu-content a {
+    font-size: 1.4rem;
+  }
+  .footer-contact-us img {
+    width: 60px;
+    height: 60px;
   }
 }
