@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+const hideNavbarAfterClick = () => {
   const navLinks = document.querySelectorAll('.nav-link');
 
   navLinks.forEach((navLink) => {
@@ -10,7 +10,9 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   });
+};
 
+const goToTopBtn = () => {
   const goToTopBtn = document.getElementById('on-top-btn');
   let prevScrollHeight = window.scrollY;
 
@@ -37,4 +39,9 @@ document.addEventListener('DOMContentLoaded', () => {
       behavior: 'smooth',
     });
   });
+};
+
+document.addEventListener('DOMContentLoaded', () => {
+  hideNavbarAfterClick();
+  goToTopBtn();
 });
