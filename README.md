@@ -16,7 +16,7 @@ Before you begin, ensure you have met the following requirements:
 
 ### Run Locally
 
-To run **Glowing** locally, run this command on your git bash:
+To run **Potoball** locally, run this command on your git bash:
 
 Linux and macOS:
 
